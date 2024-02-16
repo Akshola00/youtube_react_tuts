@@ -2,9 +2,12 @@ import React, { Component } from 'react'
 
 export class Welcome extends Component {
   render() {
+    // destructuring in class components
+    const {name, heroname} = this.props
+    // const {state1, state2} = this.state
     return (
       <div>
-        welcome {this.props.name} aka {this.props.heroname}
+        welcome {name} aka {heroname}
       </div>
     )
   }
