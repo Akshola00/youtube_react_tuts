@@ -8,6 +8,7 @@ import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import EventBing from './components/EventBing'
 import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +22,8 @@ function App() {
       {/* <FunctionClick />
       <ClassClick /> */}
       {/* <EventBing /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <UserGreeting />
     </div>
   )
 }
