@@ -7,6 +7,7 @@ import './App.css'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import EventBing from './components/EventBing'
+import ParentComponent from './components/ParentComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +20,8 @@ function App() {
       {/* <Welcome name="John Cena" heroname="UNOCME" /> */}
       {/* <FunctionClick />
       <ClassClick /> */}
-      <EventBing />
+      {/* <EventBing /> */}
+      <ParentComponent />
     </div>
   )
 }
