@@ -9,6 +9,7 @@ import ClassClick from './components/ClassClick'
 import EventBing from './components/EventBing'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
+import NalmeList from './components/NalmeList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,7 +24,8 @@ function App() {
       <ClassClick /> */}
       {/* <EventBing /> */}
       {/* <ParentComponent /> */}
-      <UserGreeting />
+      {/* <UserGreeting /> */}
+      < NalmeList />
     </div>
   )
 }
