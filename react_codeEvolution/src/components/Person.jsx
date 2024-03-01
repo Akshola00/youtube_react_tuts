@@ -10,5 +10,5 @@ function Person({p}) {
     </div>
   )
 }
-
+ 
 export default Person
