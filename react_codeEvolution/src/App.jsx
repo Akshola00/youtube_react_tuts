@@ -10,12 +10,14 @@ import EventBing from './components/EventBing'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import NalmeList from './components/NalmeList'
+import Stylesheet from './components/Stylesheet'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
+      <Stylesheet />
       {/* <Message />
       <Counter />
       <Greet name="John Cena" heroname="UNOCME" /> */}
