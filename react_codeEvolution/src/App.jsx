@@ -14,16 +14,18 @@ import UserGreeting from './components/UserGreeting'
 import NalmeList from './components/NalmeList'
 import Stylesheet from './components/Stylesheet'
 import Inline from './components/Inline'
+import Form from './components/Form'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <h2 className='error'>error</h2>
-      <h3 className={styles.success}>success</h3>
+      < Form />
+      {/* <h2 className='error'>error</h2>
+      <h3 className={styles.success}>success</h3> */}
       {/* <Stylesheet primary={true} /> */}
-      <Inline />
+      {/* <Inline /> */}
       {/* <Message />
       <Counter />
       <Greet name="John Cena" heroname="UNOCME" /> */}
@@ -33,7 +35,7 @@ function App() {
       {/* <EventBing /> */}
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
-      < NalmeList />
+      {/* < NalmeList /> */}
     </div>
   )
 }
