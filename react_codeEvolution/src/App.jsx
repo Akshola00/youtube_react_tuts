@@ -15,13 +15,15 @@ import NalmeList from './components/NalmeList'
 import Stylesheet from './components/Stylesheet'
 import Inline from './components/Inline'
 import Form from './components/Form'
+import LifecycleA from './components/LifecycleA'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      < Form />
+      {/* < Form /> */}
+      <LifecycleA />
       {/* <h2 className='error'>error</h2>
       <h3 className={styles.success}>success</h3> */}
       {/* <Stylesheet primary={true} /> */}
