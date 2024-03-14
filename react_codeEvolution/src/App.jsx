@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Fragment, useState } from 'react'
 import Message from './components/message'
 import Counter from './components/Counter'
 import Greet from './components/Greet'
@@ -16,6 +16,8 @@ import Stylesheet from './components/Stylesheet'
 import Inline from './components/Inline'
 import Form from './components/Form'
 import LifecycleA from './components/LifecycleA'
+import Fragmentdemo from './components/Fragmentdemo'
+import Table from './components/Table'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,7 +25,9 @@ function App() {
   return (
     <div>
       {/* < Form /> */}
-      <LifecycleA />
+      {/* <LifecycleA /> */}
+      {/* <Fragmentdemo /> */}
+      <Table />
       {/* <h2 className='error'>error</h2>
       <h3 className={styles.success}>success</h3> */}
       {/* <Stylesheet primary={true} /> */}
