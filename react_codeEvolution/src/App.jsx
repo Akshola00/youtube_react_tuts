@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react'
+import { Fragment, PureComponent, useState } from 'react'
 import Message from './components/message'
 import Counter from './components/Counter'
 import Greet from './components/Greet'
@@ -18,6 +18,11 @@ import Form from './components/Form'
 import LifecycleA from './components/LifecycleA'
 import Fragmentdemo from './components/Fragmentdemo'
 import Table from './components/Table'
+import Regularcomponent from './components/Regularcomponent'
+import PureandRegComp from './components/PureandRegComp'
+import RefsDemo from './components/RefsDemo'
+import Focusinput from './components/Focusinput'
+import FRParentinput from './components/FRParentinput'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +32,11 @@ function App() {
       {/* < Form /> */}
       {/* <LifecycleA /> */}
       {/* <Fragmentdemo /> */}
-      <Table />
+      {/* <Table /> */}
+      {/* <PureandRegComp /> */}
+      {/* <RefsDemo/> */}
+      {/* <Focusinput/> */}
+      <FRParentinput />
       {/* <h2 className='error'>error</h2>
       <h3 className={styles.success}>success</h3> */}
       {/* <Stylesheet primary={true} /> */}
