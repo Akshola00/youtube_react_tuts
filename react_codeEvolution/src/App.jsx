@@ -26,6 +26,9 @@ import FRParentinput from "./components/FRParentinput";
 import PortalDemo from "./components/PortalDemo";
 import Hero from "./components/Hero";
 import Errorboundary from "./components/Errorboundary";
+import Clickcounter from "./components/Clickcounter";
+import Hovercounter from "./components/Hovercounter";
+import User from "./components/User";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -41,7 +44,7 @@ function App() {
       {/* <Focusinput/> */}
       {/* <FRParentinput /> */}
       {/* <PortalDemo /> */}
-      <Errorboundary>
+      {/* <Errorboundary>
         <Hero heroname={"batman"} />
       </Errorboundary>
       <Errorboundary>
@@ -49,8 +52,10 @@ function App() {
       </Errorboundary>
       <Errorboundary>
         <Hero heroname={"joker"} />
-      </Errorboundary>
-
+      </Errorboundary> */}
+      <Clickcounter name='vishwas' />
+      <Hovercounter />
+      < User render={(isloggedin) => isloggedin ? 'vishwas' : 'guest'} />
       {/* <h2 className='error'>error</h2>
       <h3 className={styles.success}>success</h3> */}
       {/* <Stylesheet primary={true} /> */}
